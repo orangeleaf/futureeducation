@@ -117,15 +117,32 @@ class AddUniversity extends Component {
                                 <FormLabel>State</FormLabel>
                                 <FormControl as="select" name="state" onChange={this.handleChange}>
                                 <option >Choose...</option>
-                                    <option >Delhi</option>
-                                    <option>Karnataka</option>
-                                    <option>Maharastra</option>
-                                    <option>Tamil Nadu</option>
-                                    <option>Jharkhand</option>
-                                    <option>Bihar</option>
-                                    <option>Uttar Pradesh</option>
-                                    <option>West Bengal</option>
-                                    <option >Andhra Pradesh</option>
+                                <option >Andhra Pradesh</option>
+                                <option >Assam</option>
+                                <option >Bihar</option>
+                                <option >Chandigarh</option>
+                                <option >Chhattisgarh</option>
+                                <option >Delhi</option>
+                                <option >Goa</option>
+                                <option >Gujarat</option>
+                                <option >Haryana</option>
+                                <option >Himachal Pradesh</option>
+                                <option >Jammu and Kashmir</option>
+                                <option >Jharkhand</option>
+                                <option >Karnataka</option>
+                                <option >Kerala</option>
+                                <option >Madhya Pradesh</option>
+                                <option >Maharashtra</option>
+                                <option >Manipur</option>
+                                <option >Odisha</option>
+                                <option >Punjab</option>
+                                <option >Rajasthan</option>
+                                <option >Tamil Nadu</option>
+                                <option >Telangana</option>
+                                <option >Tripura</option>
+                                <option >Uttar Pradesh</option>
+                                <option >Uttarakhand</option>
+                                <option >West Bengal</option>
                                 </FormControl>
                             </FormGroup>
                         </Row>

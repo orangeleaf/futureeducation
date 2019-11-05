@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 
 const simg = {
   width: '100%',
-  // height: '350px',
   objectFit: 'cover'
 }
 class Home extends Component {

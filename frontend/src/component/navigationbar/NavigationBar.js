@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Nav, Navbar, NavbarBrand, Form, FormControl, Button, NavDropdown, Dropdown } from 'react-bootstrap'
+import { Nav, Navbar, ListGroup, NavDropdown, Dropdown } from 'react-bootstrap'
 import LoginForm from '../login/loginform/LoginForm'
 import RegistrationForm from '../login/registrationform/RegistrationForm.js'
 import PageNotFound from '../pagenotfound/PageNotFound'
@@ -10,8 +10,6 @@ import {
     Link,
     NavLink
 } from "react-router-dom";
-// import Tutor from './Tutor'
-// import TutorInfo from './TutorInfo'
 import Institute from '../institutes/institute/Institute'
 import InstituteInfo from '../institutes/instituteinfo/InstituteInfo'
 import Home from '../home/Home'
@@ -28,7 +26,11 @@ const abrand = {
     color: 'orange',
     fontWeight: 'bold',
     fontStyle: 'italic',
-    // fontSize: '20px'
+}
+
+const name = {
+    backgroundColor: "gray",
+    fontColor : 'black'
 }
 
 const agray = {
@@ -42,33 +44,33 @@ class NavigationBar extends Component {
             <Router>
                 <div>
                     <Navbar sticky="top" bg="dark" variant="dark"  >
-                    <Navbar.Brand href="/home" style={abrand}>Future Education</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
-                            <NavDropdown title="Institutes" id="nav-dropdown" color="white">
-                                <NavDropdown.Item ><NavLink to="/institutes" style={agray}>Colleges</NavLink></NavDropdown.Item>
-                                <NavDropdown.Item ><NavLink to="/universities" style={agray}>Universities</NavLink></NavDropdown.Item>
-                                {/* <NavDropdown.Item ><NavLink to="/schools" style={agray}>Schools</NavLink></NavDropdown.Item> */}
-                                <Dropdown.Divider />
-                                <NavDropdown.Item ><NavLink to="/addinstitutes" style={agray}>Add Institute</NavLink></NavDropdown.Item>
-                                {/* <NavDropdown.Item ><NavLink to="/adduniversities" style={alink}>Add Universities</NavLink></NavDropdown.Item> */}
-                            </NavDropdown>
-                            
-                        </Nav>
-                        <Nav>
-                        <Nav.Link href="/about">About</Nav.Link>
-                            <Nav.Link href="/contactus">Contact Us</Nav.Link>
-                        </Nav>
-                        
-                            </Navbar.Collapse>
+                        <Navbar.Brand href="/home" style={abrand}>Future Education</Navbar.Brand>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                            <Nav className="mr-auto">
+                                <NavDropdown title="Institutes" >
+                                    <NavDropdown action="true" className="dropright" title="Colleges" style={name}>       
+                                    <NavDropdown.Item action="true"  href="/institutes" style={agray}>List of Colleges</NavDropdown.Item>
+                                    <NavDropdown.Item action="true"  href="/addinstitutes" style={agray}>Add your College</NavDropdown.Item>
+                                    </NavDropdown>
+                                    <NavDropdown action="true"  className="dropright" title="Universities" style={name}>       
+                                    <NavDropdown.Item action="true"  href="/universities" style={agray}>List of Universities</NavDropdown.Item>
+                                    <NavDropdown.Item action="true"  href="/adduniversities" style={agray}>Add your University</NavDropdown.Item>
+                                    </NavDropdown>
+                                </NavDropdown>
+
+                            </Nav>
+                            <Nav>
+                                <Link to="/about">About</Link>
+                                <Link to="/contactus">Contact Us</Link>
+                            </Nav>
+
+                        </Navbar.Collapse>
                     </Navbar>
 
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/home" component={Home} />
-                        {/* <Route exact path="/tutors" component={Tutor} />
-                        <Route path="/tutors/:id" component={TutorInfo} /> */}
                         <Route exact path="/institutes" component={Institute} />
                         <Route path="/institutes/:id" component={InstituteInfo} />
                         <Route exact path="/universities" component={University} />

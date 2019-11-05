@@ -99,6 +99,7 @@ class AddInstitute extends Component {
                         <FormGroup as={Col} >
                             <FormLabel>Approval</FormLabel>
                             <FormControl as="select" name="approval" onChange={this.handleChange}>
+                            <option >Choose...</option>
                                 <option >Affiliated</option>
                                 <option>In Progress</option>
                                 <option>Unknown</option>
@@ -115,6 +116,7 @@ class AddInstitute extends Component {
                         <FormGroup as={Col} >
                             <FormLabel>Ownership</FormLabel>
                             <FormControl as="select" name="approval" onChange={this.handleChange}>
+                            <option >Choose...</option>
                                 <option >Govt.</option>
                                 <option>Private</option>
 
@@ -152,6 +154,7 @@ class AddInstitute extends Component {
                         <FormGroup as={Col} >
                             <FormLabel>Category</FormLabel>
                             <FormControl as="select" name="category" onChange={this.handleChange}>
+                            <option >Choose...</option>
                                 <option >Engineering</option>
                                 <option>Medicals</option>
                                 <option>Pharmacy</option>
@@ -179,14 +182,33 @@ class AddInstitute extends Component {
                         <FormGroup as={Col} controlId="formGridState">
                             <FormLabel>State</FormLabel>
                             <FormControl as="select" name="state" onChange={this.handleChange}>
-                                <option >New Delhi</option>
-                                <option>Karnataka</option>
-                                <option>Maharastra</option>
-                                <option>Tamil Nadu</option>
-                                <option>Jharkhand</option>
-                                <option>Bihar</option>
-                                <option>Uttar Pradesh</option>
-                                <option>West Bengal</option>
+                            <option >Choose...</option>
+                                <option >Andhra Pradesh</option>
+                                <option >Assam</option>
+                                <option >Bihar</option>
+                                <option >Chandigarh</option>
+                                <option >Chhattisgarh</option>
+                                <option >Delhi</option>
+                                <option >Goa</option>
+                                <option >Gujarat</option>
+                                <option >Haryana</option>
+                                <option >Himachal Pradesh</option>
+                                <option >Jammu and Kashmir</option>
+                                <option >Jharkhand</option>
+                                <option >Karnataka</option>
+                                <option >Kerala</option>
+                                <option >Madhya Pradesh</option>
+                                <option >Maharashtra</option>
+                                <option >Manipur</option>
+                                <option >Odisha</option>
+                                <option >Punjab</option>
+                                <option >Rajasthan</option>
+                                <option >Tamil Nadu</option>
+                                <option >Telangana</option>
+                                <option >Tripura</option>
+                                <option >Uttar Pradesh</option>
+                                <option >Uttarakhand</option>
+                                <option >West Bengal</option>
                             </FormControl>
                         </FormGroup>
 
