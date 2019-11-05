@@ -22,4 +22,5 @@ public class InstituteRequest {
     private String approval;
     private String totalfaculty;
     private String totalstudent;
+
 }

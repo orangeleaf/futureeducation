@@ -6,6 +6,7 @@ import com.orangeleaf.futureeducation.service.InstituteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/institutes")
 public class InstituteController {
