@@ -22,7 +22,7 @@ class University extends Component {
 
     async componentDidMount() {
 
-        const response = await fetch('http://localhost:8080/universities')
+        const response = await fetch('api/universities')
         const body = await response.json()
         this.setState({ universities: body })
     }

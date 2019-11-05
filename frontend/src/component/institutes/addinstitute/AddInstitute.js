@@ -42,9 +42,9 @@ class AddInstitute extends Component {
     async handleSubmit(event) {
         event.preventDefault()
 
-        // const response = await fetch('http://localhost:8080/institutes')
+        // const response = await fetch('/api/institutes')
 
-        fetch('http://localhost:8080/institutes', {
+        fetch('/api/institutes', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

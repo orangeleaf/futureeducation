@@ -30,3 +30,6 @@ out/
 
 ### VS Code ###
 .vscode/
+.DS_Store
+.tests.executed
+/build_packageNpmApp

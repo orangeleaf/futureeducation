@@ -21,7 +21,7 @@ class Institute extends Component {
 
     async componentDidMount() {
 
-        const response = await fetch('http://localhost:8080/institutes')
+        const response = await fetch('/api/institutes')
         const body = await response.json()
         this.setState({ institutes: body })
     }

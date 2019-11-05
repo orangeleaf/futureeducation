@@ -4,11 +4,13 @@ import com.orangeleaf.futureeducation.modal.Institute;
 import com.orangeleaf.futureeducation.modal.InstituteRequest;
 import com.orangeleaf.futureeducation.service.InstituteService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
 @RestController
-@RequestMapping("/institutes")
+//@RequestMapping(value="/institutes",consumes = MediaType.APPLICATION_JSON_VALUE,produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value="/api/institutes")
 public class InstituteController {
 
     @Autowired

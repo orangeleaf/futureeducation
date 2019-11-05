@@ -35,7 +35,7 @@ class AddUniversity extends Component {
 
         // const response = await fetch('http://localhost:8080/institutes')
 
-        fetch('http://localhost:8080/universities', {
+        fetch('/api/universities', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

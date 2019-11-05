@@ -29,7 +29,7 @@ constructor(props){
 
     async handleSubmit(event){
         event.preventDefault()
-        fetch('http://localhost:8080/contactus', {
+        fetch('/api/contactus', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',

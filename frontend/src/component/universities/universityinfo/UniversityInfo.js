@@ -14,7 +14,7 @@ constructor(props){
 }
     async componentDidMount() {
         const {id} = this.props.match.params
-        const response = await fetch('http://localhost:8080/universities/' + id)
+        const response = await fetch('/api/universities/' + id)
         const body = await response.json()
         this.setState({ university: body })
     }
