@@ -33,10 +33,6 @@ class Header extends Component {
   render() {
     return (
         <div className="header">
-          <a href="/" style={astyle}>
-            <img src={logo} alt="logo.png" />
-            Future Education</a>
-
           <NavigationBar />
 
       </div>

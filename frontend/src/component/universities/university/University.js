@@ -35,12 +35,15 @@ class University extends Component {
         })
         console.log(this.state.city)
         return (
-            <div className="container">
-                <Breadcrumb>
+            <div>
+  <Breadcrumb>
                     <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
                     <Breadcrumb.Item href="/universities">Universities</Breadcrumb.Item>
                     <Breadcrumb.Item active>Data</Breadcrumb.Item>
                 </Breadcrumb>
+            
+            <div className="container">
+              
                 <br />
                 <Form onSubmit={this.handleSubmit}>
                     <input as='search' value={this.state.search} onChange={this.updateSearch.bind(this)} placeholder="Search Universities..." />
@@ -84,7 +87,7 @@ class University extends Component {
                     {/* <Route exact path="/compare" component={CompareInstitutes} /> */}
                 </Switch>
             </div>
-
+            </div>
         );
     }
 }

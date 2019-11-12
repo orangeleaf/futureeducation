@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import './App.css';
-import { Form, FormGroup, FormControl, FormLabel, FormCheck, Row, Col, Button } from 'react-bootstrap'
+import { Form, FormGroup, FormControl, FormLabel, FormCheck, Row, Col, Button,Breadcrumb } from 'react-bootstrap'
 
 class AddUniversity extends Component {
     constructor(props) {
@@ -59,6 +59,12 @@ class AddUniversity extends Component {
 
     render() {
         return (
+            <div>
+  <Breadcrumb>
+                    <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+                    <Breadcrumb.Item href="/universities">Universities</Breadcrumb.Item>
+                    <Breadcrumb.Item active>Add</Breadcrumb.Item>
+                </Breadcrumb>
             <div className="container">
                 <br></br>
                 <Form onSubmit={this.handleSubmit}>
@@ -160,6 +166,7 @@ class AddUniversity extends Component {
                     <br />
                     <br />
                     <br />
+            </div>
             </div>
                 );
             }

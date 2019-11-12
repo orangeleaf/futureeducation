@@ -10,6 +10,7 @@ constructor(props){
         lname : '',
         email : '',
         phone : '',
+        type: 'Feedback',
         text : ''
     }
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -54,8 +55,8 @@ constructor(props){
 
     render() {
         return (
-            <div className="container">
-                <div className = "center">
+            <div >
+                <div className = "center" >
                 <Breadcrumb>
                     <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
                     <Breadcrumb.Item active>Contact Us</Breadcrumb.Item>
@@ -63,7 +64,7 @@ constructor(props){
                 
                 <h3>Contact Us</h3>
                 <br /> 
-                    
+                   <div className="container">
                 <Form onSubmit={this.handleSubmit}>
                     <Row>
                       
@@ -72,22 +73,26 @@ constructor(props){
                            </Col>
                        <Col><Form.Control name="fname" placeholder="First name" onChange={this.handleChange}/></Col>        
                     </Row>
+                    <br/>
                     <Row>
                         <Col>
                     <Form.Label>Last Name</Form.Label> </Col>
                     <Col> <Form.Control name="lname" placeholder="Last name" onChange={this.handleChange}/> </Col>
                        
                     </Row>
+                    <br/>
                     <Row>
                     <Col>
                             <Form.Label>Email address</Form.Label> </Col>
                             <Col><Form.Control name="email" placeholder="Enter email" onChange={this.handleChange}/> </Col>
                     </Row>
+                    <br/>
                     <Row>
                     <Col>
                             <Form.Label>Phone (optional) </Form.Label> </Col>
                             <Col><Form.Control name="phone" placeholder="" onChange={this.handleChange}/> </Col>
                     </Row>
+                    <br/>
                     <Row>
                     <Col>
                             <Form.Label>Type</Form.Label>  </Col>
@@ -97,16 +102,23 @@ constructor(props){
                                 <option>Others</option> 
                             </Form.Control> </Col>
                         </Row>
+                        <br/>
                     <Row>
                         <Col>
                             <Form.Label>Subject</Form.Label> </Col>
                             <Col> <Form.Control as="textarea" name="text" placeholder="" onChange={this.handleChange}/> </Col> 
                     </Row>
                     <br/>
+                    <Row>
+                        <Col></Col>
+                        <Col>
                     <Button variant="primary" type="submit" >
                         Send
                     </Button>
+                    </Col>
+                    </Row>
                 </Form>
+                </div> 
                 </div>
             
             </div>

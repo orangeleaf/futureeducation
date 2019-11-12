@@ -10,8 +10,9 @@ class Footer extends Component {
                    <a href="/home" >Home</a>
                    <a href="/about" >About</a>
                    <a href="/contactus" >Contact Us</a>
+                   <a href="/jayantipusp" >Meet Founder</a>
                    <div className="copyright">
-                    <p>Web development © 2019</p>
+                    <p>Copyright © 2019 Jayanti Pusp</p>
                     </div>
                </div>
 

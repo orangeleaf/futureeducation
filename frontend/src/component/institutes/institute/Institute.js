@@ -33,12 +33,13 @@ class Institute extends Component {
             return institute.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1
         })
         return (
-            <div className="container">
+            <div >
                 <Breadcrumb>
                     <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
                     <Breadcrumb.Item href="/institutes">Institutes</Breadcrumb.Item>
                     <Breadcrumb.Item active>Data</Breadcrumb.Item>
                 </Breadcrumb>
+                <div className="container">
                 <br />
                 <Form onSubmit={this.handleSubmit}>
                     <input as='search' value={this.state.search} onChange={this.updateSearch.bind(this)} placeholder="Search..." />
@@ -105,6 +106,7 @@ class Institute extends Component {
                     <Route exact path="/institutes/:id" component={InstituteInfo} />
                     <Route exact path="/compare" component={CompareInstitutes} />
                 </Switch>
+            </div>
             </div>
 
         );
