@@ -42,7 +42,7 @@ class MeetFounder extends Component {
                                         </Row>
                                         <br/>
                                         <Row>
-                                            <Col>LinkedIn: <a href="https://www.linkedin.com/in/jayantipusp">https://www.linkedin.com/in/jayantipusp</a></Col>
+                                            <Col>LinkedIn: <a href="https://www.linkedin.com/in/jayantipusp" target="_blank">www.linkedin.com/in/jayantipusp</a></Col>
                                             
                                         </Row>
 
@@ -126,7 +126,7 @@ class MeetFounder extends Component {
                                                 <br/>02/2019 - Present
                                                 <br/>Austin,Texas</Card.Subtitle>
                                                 <Card.Text>
-                                                    <a href="http://www.futureeducation.co.in">www.futureeducation.co.in</a>
+                                                    <a href="http://www.futureeducation.co.in"  target="_blank">www.futureeducation.co.in</a>
                                                     <ul>
                                                         <li>Building Stable and maintainable code bases using ReactJS.</li>
                                                         <li>Invoking RESTFul API calls from React to fetch data from server</li>
@@ -279,6 +279,9 @@ class MeetFounder extends Component {
                         </Accordion.Collapse>
                     </Card>
                 </Accordion>
+                <br/>
+                <br/>
+                <br/>
             </div>
         );
     }
