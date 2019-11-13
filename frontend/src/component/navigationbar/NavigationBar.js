@@ -52,8 +52,8 @@ class NavigationBar extends Component {
                     <img
                                     alt=""
                                     src={logo}
-                                    width="50"
-                                    height="30"
+                                    width="60"
+                                    height="35"
                                     className="d-inline-block align-top"
                                 />{' '}
                         Future Education</Navbar.Brand>
