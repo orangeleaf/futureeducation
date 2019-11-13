@@ -16,7 +16,7 @@ import Home from '../home/Home'
 import About from '../about/About'
 import ContactUs from '../contactus/ContactUs'
 import CompareInstitutes from '../institutes/compareinstitute/CompareInstitutes'
-import AddInstitute from '../institutes/addinstitute/AddInstitute'
+import AddInstitute from '../institutes/addcollege/AddCollege'
 import LoginPage from '../login/LoginPage'
 import AddUniversity from '../universities/adduniversity/AddUniversity'
 import University from '../universities/university/University'
@@ -31,15 +31,6 @@ const abrand = {
     // fontSize: '1.5  em'
 }
 
-const name = {
-    backgroundColor: "gray",
-    fontColor: 'black'
-}
-
-const agray = {
-    color: 'gray',
-    fontWeight: 'bold'
-}
 
 class NavigationBar extends Component {
     render() {
@@ -61,15 +52,12 @@ class NavigationBar extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             <NavDropdown title="Institutes" >
-                                <NavDropdown action="true" title="Universities" >
                                     <NavDropdown.Item action="true" href="/universities" >List of Universities</NavDropdown.Item>
-                                    <NavDropdown.Item action="true" href="/adduniversities">Add your University</NavDropdown.Item>
-                                </NavDropdown>
-                                <NavDropdown action="true" title="Colleges" >
                                     <NavDropdown.Item action="true" href="/institutes">List of Colleges</NavDropdown.Item>
-                                    <NavDropdown.Item action="true" href="/addinstitutes">Add your College</NavDropdown.Item>
-                                </NavDropdown>
+                                    <NavDropdown.Divider/>
+                                    <NavDropdown.Item action="true" href="/addinstitutes">Add your Institute</NavDropdown.Item>
                             </NavDropdown>
+                            
                         </Nav>
                         <Nav>
                             <Nav.Link href="/about">About</Nav.Link>

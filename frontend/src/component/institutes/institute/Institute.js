@@ -36,7 +36,7 @@ class Institute extends Component {
             <div >
                 <Breadcrumb>
                     <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-                    <Breadcrumb.Item href="/institutes">Institutes</Breadcrumb.Item>
+                    <Breadcrumb.Item href="/institutes">Colleges</Breadcrumb.Item>
                     <Breadcrumb.Item active>Data</Breadcrumb.Item>
                 </Breadcrumb>
                 <div className="container">

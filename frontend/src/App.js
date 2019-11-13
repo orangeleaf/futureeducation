@@ -22,9 +22,11 @@ import LoginPage from './component/login/LoginPage';
 import LoginForm from './component/login/loginform/LoginForm';
 import RegistrationForm from './component/login/registrationform/RegistrationForm';
 import CompareInstitutes from './component/institutes/compareinstitute/CompareInstitutes';
-import AddInstitute from './component/institutes/addinstitute/AddInstitute';
+import AddInstitute from './component/institutes/addcollege/AddCollege';
 import MeetFounder from './component/founder/MeetFounder';
 import PageNotFound from './component/pagenotfound/PageNotFound';
+import AddInstitutePage from './component/addinstitutepage/AddInstitutePage';
+import AddCollege from './component/institutes/addcollege/AddCollege';
 
 class App extends Component {
 
@@ -50,7 +52,8 @@ class App extends Component {
                         <Route path="/loginform" component={LoginForm} />
                         <Route path="/register" component={RegistrationForm} />
                         <Route exact path="/compare" component={CompareInstitutes} />
-                        <Route exact path="/addinstitutes" component={AddInstitute} />
+                        <Route exact path="/addinstitutes" component={AddInstitutePage} />
+                        <Route exact path="/addcolleges" component={AddCollege} />
                         <Route exact path="/jayantipusp" component={MeetFounder} />
                         <Route path="**" component={PageNotFound} />
                     </Switch>

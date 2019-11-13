@@ -59,16 +59,11 @@ class AddUniversity extends Component {
 
     render() {
         return (
-            <div>
-  <Breadcrumb>
-                    <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-                    <Breadcrumb.Item href="/universities">Universities</Breadcrumb.Item>
-                    <Breadcrumb.Item active>Add</Breadcrumb.Item>
-                </Breadcrumb>
             <div className="container">
                 <br></br>
                 <Form onSubmit={this.handleSubmit}>
-                    <h4>Add University</h4>
+                    <br/>
+                    <h5>Please fill in your University information</h5>
                     <hr />
                     <Row>
                         <FormGroup as={Col}>
@@ -167,7 +162,7 @@ class AddUniversity extends Component {
                     <br />
                     <br />
             </div>
-            </div>
+            
                 );
             }
         

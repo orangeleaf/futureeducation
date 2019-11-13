@@ -38,7 +38,7 @@ class MeetFounder extends Component {
 <br/>
                                         <Row>
                                             <Col>Email: jayantipusp@outlook.com</Col>
-                                            <Col>Ph: 510509XXXX</Col>
+                                            <Col>Ph: 510XXXXXXX</Col>
                                         </Row>
                                         <br/>
                                         <Row>
@@ -245,8 +245,8 @@ class MeetFounder extends Component {
                                     </Col>
                                     <Col sm={10}>
                                         
-                                                Bachelor of Engineering in Computer Science, ( 2002 - 2006 )
-<br />Rajiv Gandhi Prodyogiki Vishwavidyalaya, Bhopal, MP, India
+                                                Bachelor of Engineering in Computer Science, ( 2002 - 2006 )<br />
+                                                <a href="https://www.rgpv.ac.in/" target="_blank" >Rajiv Gandhi Prodyogiki Vishwavidyalaya</a>, Bhopal, MP, India
 </Col>
 </Row>
 </Card.Body>
