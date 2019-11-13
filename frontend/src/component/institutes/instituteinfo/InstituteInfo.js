@@ -19,7 +19,6 @@
         }
 
         render() {
-
             const { institute } = this.state
             if (!Institute) {
                 return (

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Nav, Navbar, ListGroup, NavDropdown, Dropdown } from 'react-bootstrap'
+import { Nav, Navbar, ListGroup, NavDropdown,} from 'react-bootstrap'
 import LoginForm from '../login/loginform/LoginForm'
 import RegistrationForm from '../login/registrationform/RegistrationForm.js'
 import PageNotFound from '../pagenotfound/PageNotFound'
@@ -56,8 +56,7 @@ class NavigationBar extends Component {
                                     <NavDropdown.Item action="true" href="/institutes">List of Colleges</NavDropdown.Item>
                                     <NavDropdown.Divider/>
                                     <NavDropdown.Item action="true" href="/addinstitutes">Add your Institute</NavDropdown.Item>
-                            </NavDropdown>
-                            
+                            </NavDropdown>                          
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

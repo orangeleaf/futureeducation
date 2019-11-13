@@ -20,7 +20,7 @@ class MeetFounder extends Component {
                         <Card.Header >
                             <Accordion.Toggle as={Button} variant="link" eventKey="0" >
 
-                                About Me
+                                <b>ABOUT ME</b>
 
                             </Accordion.Toggle>
                         </Card.Header>
@@ -31,18 +31,18 @@ class MeetFounder extends Component {
                                     <Col sm={8}><br></br>
                                         <Row>
                                             
-                                            <Col>Name: Jayanti Pusp</Col>
-                                            <Col>Location: Austin, Texas</Col>
+                                            <Col><b>Name:</b> Jayanti Pusp</Col>
+                                            <Col><b>Location:</b> Austin, Texas</Col>
 
                                         </Row>
 <br/>
                                         <Row>
-                                            <Col>Email: jayantipusp@outlook.com</Col>
-                                            <Col>Ph: 510XXXXXXX</Col>
+                                            <Col><b>Email:</b> jayantipusp@outlook.com</Col>
+                                            
                                         </Row>
                                         <br/>
                                         <Row>
-                                            <Col>LinkedIn: <a href="https://www.linkedin.com/in/jayantipusp" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/jayantipusp</a></Col>
+                                            <Col><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/jayantipusp" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/jayantipusp</a></Col>
                                             
                                         </Row>
 
@@ -55,7 +55,7 @@ class MeetFounder extends Component {
                     <Card>
                         <Card.Header>
                             <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                                Skills
+                                <b>SKILLS</b>
                         </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="1">
@@ -65,20 +65,20 @@ class MeetFounder extends Component {
                                     </Col>
                                     <Col sm={10}>
                                         <ul>
-                                            <li>ReactJS with Redux</li>
-                                            <li>JavaScript, JQuery, AJAX, HTML, CSS</li>
-                                            <li>Front-end (CSS) frameworks: Bootstrap, reactstrap</li>
-                                            <li>Test driven development - JEST, Enzyme</li>
+                                            <li><b>ReactJS with Redux</b></li>
+                                            <li><b>JavaScript, JQuery, AJAX, HTML, CSS</b></li>
+                                            <li>Front-end (CSS) frameworks : <b>Bootstrap, Reactstrap</b></li>
+                                            <li>Test driven development : JEST, Enzyme</li>
                                             <li>Node.js</li>
                                             <li>J2EE Technologies</li>
-                                            <li>IDE tools – IntelliJ and Eclipse</li>
-                                            <li>Java Framework :- Spring Boot</li>
-                                            <li>Database :- DBeaver and PostgreSQL</li>
-                                            <li>SCM - GitHub</li>
-                                            <li>SAP XI\PI :- JDBC adapter, Idoc Adapter, RFC Lookups, UDFs, File Adapters, BPM, Mapping, Proxies, SOAP adapter, Java Mapping,</li>
-                                            <li>SAP ABAP :- Reports, Function Modules, ALV, User exits, Screens, ALE\ IDOCs,</li>
-                                            <li>SAP BO\WEBI :- Complex Webi reports using Variables, Drill Downs, Sections, breaks, and Merged Dimensions , Functions, Sections, Controls, Import data from data source like Universe and excel sheet</li>
-                                            <li>SAP Xcelsius :- Created Dashboard User Interface Prototype for the different Projects based on User needs, Data Visualizations, Charts, Dynamic Selections & Visibility, Tabs, Alerts, User Selection Components, Multiple Drill Downs</li>
+                                            <li>IDE tools : IntelliJ and Eclipse</li>
+                                            <li>Java Framework :<b> Spring Boot</b></li>
+                                            <li>Database : <b>DBeaver and PostgreSQL</b></li>
+                                            <li>SCM : <b>GitHub</b></li>
+                                            <li><b>SAP XI\PI</b> : JDBC adapter, Idoc Adapter, RFC Lookups, UDFs, File Adapters, BPM, Mapping, Proxies, SOAP adapter, Java Mapping,</li>
+                                            <li><b>SAP ABAP</b> : Reports, Function Modules, ALV, User exits, Screens, ALE\ IDOCs,</li>
+                                            <li><b>SAP BO\WEBI</b> : Complex Webi reports using Variables, Drill Downs, Sections, breaks, and Merged Dimensions , Functions, Sections, Controls</li>
+                                            <li><b>SAP Xcelsius </b>: Data Visualizations, Charts, Dynamic Selections n Visibility, Tabs, Alerts, User Selection Components, Multiple Drill Downs</li>
                                         </ul>
                                     </Col>
 
@@ -89,7 +89,7 @@ class MeetFounder extends Component {
                     <Card>
                         <Card.Header>
                             <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                                Experience
+                                <b>EXPERIENCE</b>
                             </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="2">
@@ -98,10 +98,11 @@ class MeetFounder extends Component {
                                     <Col sm={2}>
                                     </Col>
                                     <Col>
-                                        Self Motivated Front end Web Developer with 9 months of experience in building and maintaining responsive websites.
+                                        <i>Self Motivated Front end Web Developer with 10 months of experience in building and maintaining responsive websites.
                                     <br />Proficient in ReactJS, HTML, CSS, JavaScript,J2EE Technologies, Java Framework Spring Boot, Database DBeaver and PostgreSQL, SCM on GitHUb; plus modern libraries and frameworks.
                                        <br /> Also, Experienced SAP Integration Consultant with overall 6 years and 7 months of experience.
-                                       Work well independently or <br />in a group setting, successfully implementing and achieving the various project lifecycle milestone.
+                                       Work well independently or in a group setting, successfully implementing and achieving the various project lifecycle milestone.
+                                            </i>
                                     </Col>
                                 </Row>
                             </Card.Body>
@@ -110,7 +111,7 @@ class MeetFounder extends Component {
                     <Card>
                         <Card.Header>
                             <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                                Projects
+                                <b>PROJECTS</b>
                             </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="3">
@@ -235,7 +236,7 @@ class MeetFounder extends Component {
                     <Card>
                         <Card.Header>
                             <Accordion.Toggle as={Button} variant="link" eventKey="4">
-                                Education
+                                <b>EDUCATION</b>
                             </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="4">
@@ -255,7 +256,7 @@ class MeetFounder extends Component {
                     <Card>
                         <Card.Header>
                             <Accordion.Toggle as={Button} variant="link" eventKey="5">
-                                Achievements
+                                <b>ACIEVEMENTS</b>
                             </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="5">
