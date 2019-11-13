@@ -61,11 +61,11 @@ class NavigationBar extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             <NavDropdown title="Institutes" >
-                                <NavDropdown action="true" className="dropright" title="Universities" >
+                                <NavDropdown action="true" title="Universities" >
                                     <NavDropdown.Item action="true" href="/universities" >List of Universities</NavDropdown.Item>
                                     <NavDropdown.Item action="true" href="/adduniversities">Add your University</NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown action="true" className="dropright" title="Colleges" >
+                                <NavDropdown action="true" title="Colleges" >
                                     <NavDropdown.Item action="true" href="/institutes">List of Colleges</NavDropdown.Item>
                                     <NavDropdown.Item action="true" href="/addinstitutes">Add your College</NavDropdown.Item>
                                 </NavDropdown>
