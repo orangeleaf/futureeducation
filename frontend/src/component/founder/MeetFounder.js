@@ -27,7 +27,7 @@ class MeetFounder extends Component {
                         <Accordion.Collapse eventKey="0">
                             <Card.Body>
                                 <Row>
-                                    <Col sm={4}><img src={author} style={img1}></img></Col>
+                                    <Col sm={4}><img alt="" src={author} style={img1}></img></Col>
                                     <Col sm={8}><br></br>
                                         <Row>
                                             
@@ -42,7 +42,7 @@ class MeetFounder extends Component {
                                         </Row>
                                         <br/>
                                         <Row>
-                                            <Col>LinkedIn: <a href="https://www.linkedin.com/in/jayantipusp" target="_blank">www.linkedin.com/in/jayantipusp</a></Col>
+                                            <Col>LinkedIn: <a href="https://www.linkedin.com/in/jayantipusp" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/jayantipusp</a></Col>
                                             
                                         </Row>
 
@@ -126,7 +126,7 @@ class MeetFounder extends Component {
                                                 <br/>02/2019 - Present
                                                 <br/>Austin,Texas</Card.Subtitle>
                                                 <Card.Text>
-                                                    <a href="http://www.futureeducation.co.in"  target="_blank">www.futureeducation.co.in</a>
+                                                    <a href="http://www.futureeducation.co.in"  target="_blank" rel="noopener noreferrer">www.futureeducation.co.in</a>
                                                     <ul>
                                                         <li>Building Stable and maintainable code bases using ReactJS.</li>
                                                         <li>Invoking RESTFul API calls from React to fetch data from server</li>
@@ -246,7 +246,7 @@ class MeetFounder extends Component {
                                     <Col sm={10}>
                                         
                                                 Bachelor of Engineering in Computer Science, ( 2002 - 2006 )<br />
-                                                <a href="https://www.rgpv.ac.in/" target="_blank" >Rajiv Gandhi Prodyogiki Vishwavidyalaya</a>, Bhopal, MP, India
+                                                <a href="https://www.rgpv.ac.in/" target="_blank" rel="noopener noreferrer">Rajiv Gandhi Prodyogiki Vishwavidyalaya</a>, Bhopal, MP, India
 </Col>
 </Row>
 </Card.Body>
