@@ -45,6 +45,23 @@ class MeetFounder extends Component {
                                             <Col><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/jayantipusp" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/jayantipusp</a></Col>
                                             
                                         </Row>
+                                        <br/>
+                                        <Row>
+                                            <Col><b><i>SUMMARY : </i></b> <br/><br/>
+                                           Highly self motivated Front end Web Developer with around 10 months of experience in building and maintaining responsive websites. Currently, working on<a href="www.futureeducation.co.in" target="_blank">www.futureeducation.co.in</a>. Skills used to develop this website are as follows:<br/>
+
+<br/><b>ReactJS</b>, HTML, CSS, <b>JavaScript</b>, Java Framework <b>Spring Boot</b>, RESTful APIs, Database DBeaver and <b>PostgreSQL</b>, Source code maintenance on <b>GitHUb</b>, Docker Containerization; plus modern libraries and frameworks.
+
+<br/><b>Certified</b> in ReactJS with Redux , JavaScript.<br/><br/>
+
+Also, working as a SAP Technical Consultant for around 7 years has enabled me to work well independently or in a group setting and successfully implementing and achieving the various project lifecycle milestone. I have hands on experience in various phases of project like requirement gathering, client interaction, development, preparation and execution of test cases, testing (both Unit and Integration), Go-Live and Go-Live Support of deliverables.<br/>
+
+<br/><b>SAP</b> – SAP XI\PI, SAP ABAP, SAP BO Webi and Xcelsius, Java Mapping and Functions.<br/><br/>
+
+</Col>
+                                           
+
+                                        </Row>
 
                                     </Col>
 
@@ -136,7 +153,7 @@ class MeetFounder extends Component {
                                                         <li>Docker containerization</li>
                                                     </ul>
     </Card.Text>
-                                                <Card.Link href="#">More...</Card.Link>
+                                                
                                                 
                                             </Card.Body>
                                         </Card>
@@ -155,7 +172,7 @@ class MeetFounder extends Component {
                                                         <li>Development Project (SAP Business Object WEBI and SAP Xcelsius)</li>
                                                     </ul>
     </Card.Text>
-                                                <Card.Link href="#">More...</Card.Link>
+                                                
                                                
                                             </Card.Body>
                                         </Card>
@@ -172,7 +189,7 @@ class MeetFounder extends Component {
                                                         
                                                     </ul>
     </Card.Text>
-                                            <Card.Link href="#">More...</Card.Link>
+                                           
                     
                                         </Card.Body>
                                     </Card></Col>
@@ -191,7 +208,7 @@ class MeetFounder extends Component {
                                                         <li>Handling production P1/P2 Tickets.</li>
                                                     </ul>
     </Card.Text>
-                                            <Card.Link href="#">More...</Card.Link>
+                                           
                                         </Card.Body>
                                     </Card></Col>
                                     <Col>  <Card style={{ width: '18rem' }}>
@@ -207,7 +224,7 @@ class MeetFounder extends Component {
                                                         <li>Requirement Gathering, Issue resolution, Technical Design, Implementation, and Peer code review, Testing (Unit testing and Integration Testing), Go-Live and then Go-Live support.</li>
                                                     </ul>
     </Card.Text>
-                                            <Card.Link href="#">More...</Card.Link>
+                                        
                                         </Card.Body>
                                     </Card></Col>
                                     <Col>  <Card style={{ width: '18rem' }}>
@@ -223,7 +240,7 @@ class MeetFounder extends Component {
                                                         <li>worked as PQL and was part of DIT</li>
                                                     </ul>
     </Card.Text>
-                                            <Card.Link href="#">More...</Card.Link>
+                                           
                                         </Card.Body>
                                     </Card></Col>
                                 </Row>
@@ -266,11 +283,11 @@ class MeetFounder extends Component {
                                     </Col>
                                     <Col sm={10}>
                                         <ul>
-                                            <li>Certified Developer : JavaScript, ReactJS with Redux</li>
-                                            <li>SAP Certified in SAP Netweaver XI 3.0 and PI 7.0</li>
+                                            <li><b>Certified Developer </b>: JavaScript, ReactJS with Redux</li>
+                                            <li><b>SAP Certified</b> in SAP Netweaver XI 3.0 and PI 7.0</li>
                                             <li>Have experience as Project Quality Lead and use of deliverables tracking tools as Clarity and SourceForge - Defect Management, Quality Control, Version Management, generation\ presentation of KPIs, Project Tracking.</li>
                                             <li>Received Project Star award multiple times for multiple roles.</li>
-                                            <li>Work Experience as Developer\ Lead at client location Unilever India and SAP Labs India.</li>
+                                            <li>Work Experience as Lead at client location Unilever India and SAP Labs India.</li>
                                            
                                         </ul>
                                     </Col>
@@ -279,7 +296,12 @@ class MeetFounder extends Component {
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>
+                  
                 </Accordion>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <br/>
                 <br/>
                 <br/>
