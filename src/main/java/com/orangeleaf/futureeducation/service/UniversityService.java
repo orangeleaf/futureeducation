@@ -4,7 +4,10 @@ import com.orangeleaf.futureeducation.modal.University;
 import com.orangeleaf.futureeducation.modal.UniversityRequest;
 import com.orangeleaf.futureeducation.repository.UniversityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.Optional;
 
@@ -41,5 +44,15 @@ public class UniversityService {
         Optional<University> optionalUniversity = universityRepository.findById(id);
         return optionalUniversity.get();
     }
+
+    public Page<University> getAllUniversities(Pageable pageable){
+        return  universityRepository.findAll(pageable);
+    }
+
+//    public Page<University> getAllByType(String type, Pageable pageable){
+//        return universityRepository.findbytype(type, pageable);
+//    }
+
+
 
 }

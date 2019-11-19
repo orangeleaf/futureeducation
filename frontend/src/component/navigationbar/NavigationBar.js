@@ -1,27 +1,9 @@
 import React, { Component } from 'react'
 import { Nav, Navbar, ListGroup, NavDropdown, } from 'react-bootstrap'
-import LoginForm from '../login/loginform/LoginForm'
-import RegistrationForm from '../login/registrationform/RegistrationForm.js'
-import PageNotFound from '../pagenotfound/PageNotFound'
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    NavLink
 } from "react-router-dom";
-import Institute from '../institutes/institute/Institute'
-import InstituteInfo from '../institutes/instituteinfo/InstituteInfo'
-import Home from '../home/Home'
-import About from '../about/About'
-import ContactUs from '../contactus/ContactUs'
-import CompareInstitutes from '../institutes/compareinstitute/CompareInstitutes'
-import AddInstitute from '../institutes/addcollege/AddCollege'
-import LoginPage from '../login/LoginPage'
-import AddUniversity from '../universities/adduniversity/AddUniversity'
-import University from '../universities/university/University'
-import UniversityInfo from '../universities/universityinfo/UniversityInfo'
-import MeetFounder from '../founder/MeetFounder'
+
 import logo from '../../images/logo11.png'
 
 const abrand = {
@@ -43,9 +25,7 @@ class NavigationBar extends Component {
         return (
             <Router>
                 <div>
-                    
-
-                    <Navbar Fixed="top" bg="info" variant="light" expand="lg">
+                    <Navbar sticky="top" bg="info" variant="light" expand="lg">
                     <Navbar.Brand href="/home" style={abrand}>
                             <img
                                 alt=""

@@ -5,6 +5,8 @@ import com.orangeleaf.futureeducation.modal.Institute;
 import com.orangeleaf.futureeducation.modal.InstituteRequest;
 import com.orangeleaf.futureeducation.repository.InstituteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -49,6 +51,14 @@ public class InstituteService {
     public boolean deleteById(Long id){
         instituteRepository.deleteById(id);
         return true;
+    }
+
+    public Page<Institute> getAllInstitutes(Pageable pageable){
+        return instituteRepository.findAll(pageable);
+    }
+
+    public Page<Institute> getAllByType(String type, Pageable pageable){
+        return instituteRepository.findByType(type, pageable);
     }
 
 }
