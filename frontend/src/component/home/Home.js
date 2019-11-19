@@ -21,8 +21,6 @@ class Home extends Component {
           <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
         </Breadcrumb>
         <div className="container">
-        <br />
-          <br />
           <br />
           <br />
           <p>Welcome !

@@ -66,14 +66,16 @@ class Institute extends Component {
                 </Breadcrumb>
                 <br />
                 <div className="container">
-                    <br />
+                   
                     <Row>
                         <Col>
+                        <br />
                             <Form onSubmit={this.handleSubmit}>
                                 <input as='search' value={this.state.search} onChange={this.updateSearch.bind(this)} placeholder="Search..." />
                             </Form>
                         </Col>
                         <Col>
+                        <br />
                             <div className="d-flex justify-content-center">
                                     <ReactPaginate
                                         previousLabel={'<'}

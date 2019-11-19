@@ -74,7 +74,7 @@ class University extends Component {
                             </Form>
                         </Col>
                         <Col>
-                            <Col>
+                        <br />
                                 <div className="d-flex justify-content-center">
 
                                     <ReactPaginate
@@ -91,12 +91,9 @@ class University extends Component {
                                         activeClassName={'active'}
                                     />
                                 </div>
-                            </Col>
                         </Col>
                     </Row>
-
                     <br />
-
                     <div>
                         {filteredUniversities.map((university) =>
                             <Card key={university.id} >
