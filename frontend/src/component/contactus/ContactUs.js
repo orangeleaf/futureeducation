@@ -112,7 +112,7 @@ constructor(props){
                     <Row>
                         <Col></Col>
                         <Col>
-                    <Button variant="primary" type="submit" >
+                    <Button type="submit" className="btn btn-info btn-block">
                         Send
                     </Button>
                     </Col>

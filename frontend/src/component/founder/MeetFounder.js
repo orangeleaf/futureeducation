@@ -48,7 +48,7 @@ class MeetFounder extends Component {
                                         <br/>
                                         <Row>
                                             <Col><b><i>SUMMARY : </i></b> <br/><br/>
-                                           Highly self motivated Front end Web Developer with around 10 months of experience in building and maintaining responsive websites. Currently, working on<a href="www.futureeducation.co.in" target="_blank">www.futureeducation.co.in</a>. Skills used to develop this website are as follows:<br/>
+                                           Highly self motivated Front end Web Developer with experience in building and maintaining responsive websites. Currently, working on<a href="www.futureeducation.co.in" target="_blank">www.futureeducation.co.in</a>. Skills used to develop this website are as follows:<br/>
 
 <br/><b>ReactJS</b>, HTML, CSS, <b>JavaScript</b>, Java Framework <b>Spring Boot</b>, RESTful APIs, Database DBeaver and <b>PostgreSQL</b>, Source code maintenance on <b>GitHUb</b>, Docker Containerization; plus modern libraries and frameworks.
 
@@ -115,7 +115,7 @@ Also, working as a SAP Technical Consultant for around 7 years has enabled me to
                                     <Col sm={2}>
                                     </Col>
                                     <Col>
-                                        <i>Self Motivated Front end Web Developer with 10 months of experience in building and maintaining responsive websites.
+                                        <i>Self Motivated Front end Web Developer with years of experience in building and maintaining responsive websites.
                                     <br />Proficient in ReactJS, HTML, CSS, JavaScript,J2EE Technologies, Java Framework Spring Boot, Database DBeaver and PostgreSQL, SCM on GitHUb; plus modern libraries and frameworks.
                                        <br /> Also, Experienced SAP Integration Consultant with overall 6 years and 7 months of experience.
                                        Work well independently or in a group setting, successfully implementing and achieving the various project lifecycle milestone.
