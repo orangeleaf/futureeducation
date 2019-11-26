@@ -26,7 +26,7 @@ class NavigationBar extends Component {
             <Router>
                 <div>
                     <Navbar sticky="top" bg="info" variant="light" expand="lg">
-                    <Navbar.Brand href="/home" style={abrand}>
+                    <Navbar.Brand href="/" style={abrand}>
                             <img
                                 alt=""
                                 src={logo}

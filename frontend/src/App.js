@@ -40,7 +40,7 @@ class App extends Component {
                 <div>
                 <Switch>
                         <Route exact path="/" component={Home} />
-                        <Route exact path="/home" component={Home} />
+                        {/* <Route exact path="/home" component={Home} /> */}
                         <Route exact path="/institutes" component={Institute} />
                         <Route path="/institutes/:id" component={InstituteInfo} />
                         <Route exact path="/universities" component={University} />

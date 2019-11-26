@@ -7,7 +7,7 @@ class Footer extends Component {
               
                <div className="footer"  >
                    
-                   <a href="/home" >Home</a>
+                   <a href="/" >Home</a>
                    <a href="/about" >About</a>
                    <a href="/contactus" >Contact Us</a>
                    {/* <a href="/jayantipusp" >Meet Founder</a> */}
