@@ -54,7 +54,7 @@ class App extends Component {
                         <Route exact path="/compare" component={CompareInstitutes} />
                         <Route exact path="/addinstitutes" component={AddInstitutePage} />
                         <Route exact path="/addcolleges" component={AddCollege} />
-                        <Route exact path="/jayantipusp" component={MeetFounder} />
+                        {/* <Route exact path="/jayantipusp" component={MeetFounder} /> */}
                         <Route path="**" component={PageNotFound} />
                     </Switch>
                 </div>

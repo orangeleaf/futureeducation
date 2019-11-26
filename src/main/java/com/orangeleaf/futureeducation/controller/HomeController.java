@@ -8,7 +8,7 @@ import java.util.Map;
 @Controller
 public class HomeController {
 
-    @RequestMapping(path = {"/","/universities","/institutes","/adduniversities","/addinstitutes","/contactus","/about","/home","/jayantipusp"})
+    @RequestMapping(path = {"/","/universities","/institutes","/adduniversities","/addinstitutes","/contactus","/about","/home"})
     public String welcome(Map<String, Object> model) {
         return "index.html";
     }
